@@ -38,7 +38,9 @@ This method is the more straight forward one. Here we create a simple math equat
 ![Alt text](img_lableded.png)
 
 Now, if we write the problem as is in equation form it will look something like:
+
 $$(10*a+b)*c = (10*k+l) + (10*m+n) = (10*x+y)$$
+
 The problem with this is that we can't put this statement in the code as there are two assignments in the same line. Also we need to check if any of the variables are the same thus solving this equation straight up is not a solution.
 So, we will divide the problem into two parts the multiplication part and the addition part.
 
